@@ -29,6 +29,7 @@
     align-items: center;
     color: var(--cor5);
     height: 50px;
+    padding-top: 15px;
 }
 
 .titulo-logo {
@@ -58,6 +59,27 @@
 
 .header-nav a:hover {
     color: #036160;
+}
+
+.home {
+    background-color: #000025;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.imagem-home {
+    margin-bottom: 55px;
+}
+
+.text-home {
+    color: var(--cor5);
+}
+
+.text-home h1 {
+    font-size: 40px;
 }
 
 .problema {
