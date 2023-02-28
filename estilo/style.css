@@ -1,0 +1,179 @@
+
+
+
+:root {
+    --cor1: #000025;
+    --cor2: #041532;
+    --cor3: #033446;
+    --cor4: #036160;
+    --cor5: #c5ac7b;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor1);
+    padding: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0,2);
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    color: var(--cor5);
+    height: 50px;
+}
+
+.titulo-logo {
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    margin: 0 10px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: var(--cor5);
+    font-weight: bold;
+    transition: color 0.2 ease-in-out;
+}
+
+.header-nav a:hover {
+    color: #036160;
+}
+
+.problema {
+    background-color: var(--cor1);
+    padding: 60px 0;
+}
+
+.titulo-problema {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--cor5);
+}
+
+.problema-card-container {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.problema-card {
+    width: 100vw;
+    background-color: var(--cor4);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.problema-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.problema-card img {
+    margin-bottom: 20px;
+}
+
+.problema-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.problema-text p {
+    font-size: 16px;
+
+}
+
+.sobrenos {
+    padding: 60px 0;
+}
+
+.sobrenos-titulo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sobrenos-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sobrenos-text {
+    width: calc(50% - 20px);
+}
+
+.sobrenos-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.sobrenos-imagem {
+    width: calc(50% - 20px);
+}
+
+.sobrenos-imagem img {
+    width: 100%;
+}
+
+.contato {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.contato-titulo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contato-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contato-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contato-form input, .contato-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+
