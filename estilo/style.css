@@ -76,10 +76,17 @@
 
 .text-home {
     color: var(--cor5);
+    text-align: center;
 }
 
 .text-home h1 {
-    font-size: 40px;
+    font-size: 55px;
+    text-align: center;
+}
+
+.text-home p {
+    font-size: 20px;
+    text-align: center;
 }
 
 .problema {
@@ -121,6 +128,7 @@
 
 .problema-card img {
     margin-bottom: 20px;
+    border-radius: 25%;    
 }
 
 .problema-text h3 {
